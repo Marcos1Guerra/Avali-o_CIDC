@@ -14,30 +14,3 @@ ordenacao = pd.read_excel('quality-report-2023.xlsx')
 dadosOrdenados = ordenacao.sort_values(by='State')
 
 dadosOrdenados.to_excel('quality-report-2023.xlsx', index=False)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
